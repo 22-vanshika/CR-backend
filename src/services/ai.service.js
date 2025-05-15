@@ -108,7 +108,7 @@ module.exports = generateContent;
 
 // const axios = require("axios");
 
-// // const OPENAI_API_KEY = process.env.OPENAI_API_KEY; // Replace this with your actual API key or load from .env
+// const OPENAI_API_KEY = process.env.OPENAI_API_KEY; 
 // async function generateContent(userPrompt) {
 //   const endpoint = "https://api.openai.com/v1/chat/completions";
 
