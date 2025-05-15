@@ -1,6 +1,6 @@
 const axios = require("axios");
-// const API_KEY = process.env.GOOGLE_GEMINI_KEY;
-const API_KEY = "AIzaSyDfaQsf_gtTtmIg6w7VIPYjV3pmNtfAiHM"
+const API_KEY = process.env.GOOGLE_GEMINI_KEY;
+// const API_KEY = "AIzaSyDfaQsf_gtTtmIg6w7VIPYjV3pmNtfAiHM"
 async function generateContent(prompt) {
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-002:generateContent?key=${API_KEY}`;
   const requestBody = {
