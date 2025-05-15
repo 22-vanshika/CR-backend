@@ -1,6 +1,6 @@
 const axios = require("axios");
 const API_KEY = process.env.GOOGLE_GEMINI_KEY;
-// const API_KEY = "AIzaSyDfaQsf_gtTtmIg6w7VIPYjV3pmNtfAiHM"
+
 async function generateContent(prompt) {
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-002:generateContent?key=${API_KEY}`;
   const requestBody = {
@@ -109,7 +109,6 @@ module.exports = generateContent;
 // const axios = require("axios");
 
 // // const OPENAI_API_KEY = process.env.OPENAI_API_KEY; // Replace this with your actual API key or load from .env
-// const OPENAI_API_KEY = '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';
 // async function generateContent(userPrompt) {
 //   const endpoint = "https://api.openai.com/v1/chat/completions";
 
